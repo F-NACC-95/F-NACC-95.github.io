@@ -6,7 +6,7 @@
 }
 
 html {
-    line-height: 2.8rem;
+    line-height: 3rem;
     background-color: #cce3ff;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -24,23 +24,6 @@ p {
     font-size: 1.4rem;
 }
 
-/* Top Banner */
-
-.banner__img {
-    width: 80%;
-    height: 70vh;
-    object-fit: cover;  
-    margin: auto;
-}
-
-.banner__div {
-    margin: auto;
-    text-align: center;
-}
-
-
-/* Main */
-
 .outer__wrapper {
     background-color: #e5f1ff;
     width: 80%;
@@ -52,48 +35,62 @@ p {
     margin: auto;
 }
 
-/* Fix Later */
-
 .section__header {
     padding-top: 3rem;
     padding-bottom: 3rem;
 }
 
-.projects {
-    padding-top: 3rem;
-    padding-bottom: 3rem;
-}
+/* Banner */
 
-.experience {
-    padding-top: 3rem;
-    padding-bottom: 3rem;
-}
-
-.contact {
-    padding-top: 3rem;
-    padding-bottom: 3rem;
-}
-
-/* Font Awesome */
-
-.font__awesome__icons {
+.banner__div {
+    margin: auto;
     text-align: center;
 }
 
-.font__awesome__icons i {
-    padding-right: 40px;
+.banner__img {
+    width: 80%;
+    height: 70vh;
+    object-fit: cover;  
+    margin: auto;
+}
+
+/* Experience */
+
+.experience__div {
+    display: grid;
+    grid-template-columns: 2fr 5fr;
+}
+
+.experience__icons {
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 10rem;
+    padding-bottom: 3rem;
+}
+
+.experience__text {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    width: 80%;
+    margin-left: 20%;
 }
 
 /* Projects */
 
-.project__grid {
+.projects__div {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.projects__grid {
     display: grid;
     grid-template-columns: 1fr 3fr;
     text-align: center;
     margin: auto;
 }
 
-.project__grid p {
+.projects__grid p {
     width: 70%;
     margin: auto;
     text-align: left;
@@ -101,25 +98,12 @@ p {
 
 /* Contact */
 
-.contact {
+.contact__div {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
     font-size: 1rem;
 }
 
 .contact p {
     font-size: 1rem;
-}
-
-
-
-
-
-
-.experience__grid {
-    display: grid;
-    grid-template-columns: 5fr 2fr;
-}
-
-.font__awesome__icons {
-    padding-top: 10rem;
-    padding-bottom: 3rem;
 }
