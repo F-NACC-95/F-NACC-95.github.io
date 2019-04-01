@@ -1,0 +1,125 @@
+/* General */
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    line-height: 2.8rem;
+    background-color: #cce3ff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: #cce3ff;
+    color: black;
+}
+
+p {
+    font-size: 1.4rem;
+}
+
+/* Top Banner */
+
+.banner__img {
+    width: 80%;
+    height: 70vh;
+    object-fit: cover;  
+    margin: auto;
+}
+
+.banner__div {
+    margin: auto;
+    text-align: center;
+}
+
+
+/* Main */
+
+.outer__wrapper {
+    background-color: #e5f1ff;
+    width: 80%;
+    margin: auto;
+}
+
+.inner__wrapper {
+    width: 70%;
+    margin: auto;
+}
+
+/* Fix Later */
+
+.section__header {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.projects {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.experience {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.contact {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+/* Font Awesome */
+
+.font__awesome__icons {
+    text-align: center;
+}
+
+.font__awesome__icons i {
+    padding-right: 40px;
+}
+
+/* Projects */
+
+.project__grid {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    text-align: center;
+    margin: auto;
+}
+
+.project__grid p {
+    width: 70%;
+    margin: auto;
+    text-align: left;
+}
+
+/* Contact */
+
+.contact {
+    font-size: 1rem;
+}
+
+.contact p {
+    font-size: 1rem;
+}
+
+
+
+
+
+
+.experience__grid {
+    display: grid;
+    grid-template-columns: 5fr 2fr;
+}
+
+.font__awesome__icons {
+    padding-top: 10rem;
+    padding-bottom: 3rem;
+}
