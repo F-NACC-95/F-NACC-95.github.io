@@ -96,6 +96,12 @@ p {
     text-align: left;
 }
 
+.project__screenshots {
+    width: 450px;
+    height: 270px;
+    object-fit: cover;
+}
+
 /* Contact */
 
 .contact__div {
