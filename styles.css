@@ -113,3 +113,29 @@ p {
 .contact p {
     font-size: 1rem;
 }
+
+@media only screen and (max-width: 1500px) {
+    .outer__wrapper {
+        width: 100%;
+    }
+    
+    .inner__wrapper {
+        width: 70%;
+    }
+
+    .banner__img {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .inner__wrapper {
+        width: 90%;
+    }
+
+    .project__screenshots {
+        width: 250px;
+        height: 170px;
+        object-fit: cover;
+    }
+}
