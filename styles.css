@@ -96,7 +96,7 @@ p {
     text-align: left;
 }
 
-.project__screenshots {
+.projects__screenshots {
     width: 450px;
     height: 270px;
     object-fit: cover;
@@ -114,7 +114,7 @@ p {
     font-size: 1rem;
 }
 
-@media only screen and (max-width: 1500px) {
+@media only screen and (max-width: 1200px) {
     .outer__wrapper {
         width: 100%;
     }
@@ -129,13 +129,34 @@ p {
 }
 
 @media only screen and (max-width: 800px) {
+    .banner__img {
+        height: 30vh;
+    }
+
     .inner__wrapper {
         width: 90%;
     }
 
-    .project__screenshots {
-        width: 250px;
-        height: 170px;
+    .projects__screenshots {
+        width: 70vw;
         object-fit: cover;
+        margin: auto;
+    }
+
+    .projects__grid {
+        display: block;
+    }
+
+    .projects__h4 {
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+        text-align: center;
+        margin: auto;
+    }
+
+    .experience__icons {
+        text-align: center;
+        display: grid;
+        grid-template-columns: 1fr;
     }
 }
