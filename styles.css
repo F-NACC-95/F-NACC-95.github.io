@@ -96,10 +96,15 @@ p {
     text-align: left;
 }
 
+.projects__h4 {
+    font-size: 1.6rem;
+    line-height: 5rem;
+}
+
 .projects__screenshots {
     width: 450px;
     height: 270px;
-    object-fit: cover;
+    object-fit: center;
 }
 
 /* Contact */
@@ -114,7 +119,7 @@ p {
     font-size: 1rem;
 }
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1600px) {
     .outer__wrapper {
         width: 100%;
     }
@@ -128,7 +133,7 @@ p {
     }
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 1200px) {
     .banner__img {
         height: 30vh;
     }
@@ -150,8 +155,7 @@ p {
     .projects__h4 {
         padding-top: 3rem;
         padding-bottom: 3rem;
-        text-align: center;
-        margin: auto;
+        margin-left: 10vw;
     }
 
     .experience__icons {
