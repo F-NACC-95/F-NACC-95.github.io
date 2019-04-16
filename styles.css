@@ -38,12 +38,16 @@ p {
 .section__header {
     padding-top: 3rem;
     padding-bottom: 3rem;
+    background-color: #adc9f7;
+    text-align: center;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
 }
 
 /* Banner */
 
 .banner__div {
-    height: 55vh;
+    height: 50vh;
     width: 100%;
     margin: auto;
     text-align: center;
@@ -85,10 +89,20 @@ p {
     font-weight: bold;
 }
 
+/* Intro */
+
+#intro__div {
+    padding-top: 1rem;
+}
+
+#intro__div p {
+    width: 90%;
+    margin: auto;
+}
 
 /* Experience */
 
-#experience__div {
+.experience__grid {
     display: grid;
     grid-template-columns: 2fr 5fr;
 }
@@ -97,7 +111,12 @@ p {
     text-align: center;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    padding-top: 10rem;
+    justify-content: center;
+    align-content: center;
+}
+
+.experience__icons i {
+    padding-top: 3rem;
     padding-bottom: 3rem;
 }
 
@@ -109,10 +128,6 @@ p {
 }
 
 /* Projects */
-
-#projects__div {
-    padding-bottom: 3rem;
-}
 
 .projects__grid {
     padding-top: 2rem;
