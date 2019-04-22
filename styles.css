@@ -47,13 +47,13 @@ p {
 /* Banner */
 
 .banner__div {
-    height: 100vh;
+    height: 99vh;
     width: 100%;
     margin: auto;
     text-align: center;
     background-image: url("https://images.pexels.com/photos/374870/pexels-photo-374870.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
     background-position: center;
-    border-bottom: 3px solid #6a94d8;
+    border-bottom: 1vh solid #6a94d8;
 }
 
 .banner__name {
@@ -181,13 +181,13 @@ p {
 /* Footer */
 
 .footer__image {
-    height: 100vh;
+    height: 99vh;
     width: 100%;
     margin: auto;
     text-align: center;
     background-image: url("https://images.pexels.com/photos/1519088/pexels-photo-1519088.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
     background-position: top;
-    border-top: 3px solid #6a94d8;
+    border-top: 1vh solid #6a94d8;
 }
 
 /* Media */
