@@ -52,7 +52,11 @@ p {
     margin: auto;
     text-align: center;
     background-image: url("https://images.pexels.com/photos/374870/pexels-photo-374870.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+    background-attachment: fixed;
     background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: inset 0 0 300px black;
     border-bottom: 1vh solid #6a94d8;
 }
 
@@ -187,6 +191,7 @@ p {
     text-align: center;
     background-image: url("https://images.pexels.com/photos/1519088/pexels-photo-1519088.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
     background-position: top;
+    box-shadow: inset 0 0 300px black;
     border-top: 1vh solid #6a94d8;
 }
 
