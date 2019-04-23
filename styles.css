@@ -102,15 +102,18 @@ p {
     font-weight: bold;
 }
 
-/* Intro */
+/* About Me */
 
-#intro__div {
+#about__me__div {
     padding-top: 1rem;
 }
 
-#intro__div p {
-    width: 90%;
+#about__me__div p {
+    width: 80%;
     margin: auto;
+    line-height: 4rem;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
 }
 
 /* Experience */
@@ -118,6 +121,8 @@ p {
 .experience__grid {
     display: grid;
     grid-template-columns: 2fr 5fr;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
 }
 
 .experience__icons {
@@ -143,7 +148,8 @@ p {
 /* Projects */
 
 .projects__grid {
-    padding-top: 2rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
     display: grid;
     grid-template-columns: 1fr 3fr;
     text-align: center;
@@ -175,10 +181,13 @@ p {
 #contact__div {
     padding-top: 3rem;
     padding-bottom: 3rem;
+}
+
+#contact__div p {
     font-size: 1rem;
 }
 
-.contact p {
+#contact__div a {
     font-size: 1rem;
 }
 
@@ -214,6 +223,15 @@ p {
 @media only screen and (max-width: 1200px) {
     .banner__img {
         height: 30vh;
+    }
+
+    .banner__name {
+        font-size: 3rem;
+    }
+
+    .navbar li {
+        font-size: 0.8rem;
+        padding-right: 0.8rem;
     }
 
     .inner__wrapper {
