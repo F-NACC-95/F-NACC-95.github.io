@@ -51,7 +51,7 @@ p {
     width: 100%;
     margin: auto;
     text-align: center;
-    background-image: url("https://images.pexels.com/photos/374870/pexels-photo-374870.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+    background-image: url("./images/banner__image.jpeg");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -198,7 +198,7 @@ p {
     width: 100%;
     margin: auto;
     text-align: center;
-    background-image: url("https://images.pexels.com/photos/1519088/pexels-photo-1519088.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+    background-image: url("./images/footer__image.jpeg");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
