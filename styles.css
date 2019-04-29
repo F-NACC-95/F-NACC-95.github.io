@@ -210,6 +210,14 @@ p {
 /* Media */
 
 @media only screen and (max-width: 1600px) {
+    .banner__div {
+        height: 60vh;
+    }
+
+    .banner__name {
+        margin-top: 7rem;
+    }
+
     .outer__wrapper {
         width: 100%;
     }
@@ -220,6 +228,10 @@ p {
 
     .banner__img {
         width: 100%;
+    }
+
+    .footer__image {
+        height: 60vh;
     }
 }
 
