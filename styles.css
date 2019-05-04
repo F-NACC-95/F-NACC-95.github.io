@@ -6,7 +6,6 @@
 }
 
 html {
-    line-height: 3rem;
     background-color: #cce3ff;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -56,14 +55,11 @@ p {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    box-shadow: inset 0 0 300px black;
     border-bottom: 1vh solid #6a94d8;
 }
 
 .banner__name {
-    margin-top: 18rem;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+    margin-top: 10%;
     font-size: 7rem;
     color: white;
     text-shadow: rgb(0, 0, 0) 5px 0 50px;
@@ -87,7 +83,7 @@ p {
     text-align: center;
     padding-bottom: 2rem;
     padding-top: 2rem;
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: rgba(0, 0, 0, 0.6);
 }
 
 .navbar li {
@@ -105,15 +101,13 @@ p {
 /* About Me */
 
 #about__me__div {
-    padding-top: 1rem;
+    padding-top: 3rem;
 }
 
 #about__me__div p {
     width: 80%;
     margin: auto;
-    line-height: 4rem;
-    padding-top: 6rem;
-    padding-bottom: 6rem;
+    line-height: 3rem;
 }
 
 /* Experience */
@@ -134,13 +128,13 @@ p {
 }
 
 .experience__icons i {
-    padding-top: 3rem;
-    padding-bottom: 3rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 
 .experience__text {
-    padding-top: 3rem;
-    padding-bottom: 3rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
     width: 80%;
     margin-left: 20%;
 }
@@ -185,6 +179,7 @@ p {
 
 #contact__div p {
     font-size: 1rem;
+    padding-top: 2rem;
 }
 
 #contact__div a {
@@ -203,17 +198,12 @@ p {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    box-shadow: inset 0 0 300px black;
     border-top: 1vh solid #6a94d8;
 }
 
 /* Media */
 
 @media only screen and (max-width: 1600px) {
-    .banner__div {
-        height: 60vh;
-    }
-
     .banner__name {
         margin-top: 7rem;
     }
@@ -236,21 +226,22 @@ p {
 }
 
 @media only screen and (max-width: 1200px) {
-    .banner__img {
-        height: 30vh;
-    }
-
     .banner__name {
         font-size: 3rem;
     }
 
     .navbar li {
-        font-size: 0.8rem;
-        padding-right: 0.8rem;
+        font-size: 1.4rem;
+        padding-right: 1rem;
     }
 
     .inner__wrapper {
         width: 80%;
+    }
+
+    .experience__icons i {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
     }
 
     .projects__screenshots {
@@ -269,10 +260,5 @@ p {
         padding-bottom: 3rem;
         margin-left: 10vw;
     }
-
-    .experience__icons {
-        text-align: center;
-        display: grid;
-        grid-template-columns: 1fr;
-    }
+    
 }
